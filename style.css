@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+
+body{
+    font-family: 'Arvo', serif;
+    background-image: url("background.jpg");
+    background-size: 100%;
+}
+
+#content {
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    padding: 15px;
+    border-radius: 20px;
+    background-color: aliceblue;
+}
